@@ -1,0 +1,65 @@
+body {
+  line-height: 1.5;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+
+.subtitulo{
+  width: 100%;
+
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+
+  justify-content: center;
+  
+}
+
+.fase{
+  
+}
+h2{
+  width: min(900px, 100% - 5rem);
+  margin-inline: auto;
+  font-weight: 900;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 1rem;
+}
+.tabela{
+  width: min(900px, 100% - 5rem);
+  margin-inline: auto;
+}
+
+table{
+  width: 100%;
+  
+  border-collapse: collapse;
+  font-family: "Poetsen One", sans-serif;
+ 
+}
+
+thead{
+  background-color: rgb(247, 247, 247);
+  color: gray;
+}
+
+th {
+  font-size: 16px;
+  background-color: gray;
+    
+}
+
+td, th{
+  border: solid black 1px;
+  padding: 1rem;
+}
+
+.container { 
+  display: flex;
+  flex-direction: column;
+}
+

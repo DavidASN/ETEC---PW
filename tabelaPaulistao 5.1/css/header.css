@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  
+  
+  gap: 6rem;
+  font:
+  calc(1em + 2 * (100vw - 120px) / 100) ,
+ fantasy;
+color: #ffffff;
+font-family: var(--codex-font-family-display, "glbOpenSans", "Open Sans", "opensans", "Globotipo Variable", sans-serif);
+background-color: #06AA48;
+}
+
+.tituloPagina {
+  padding-right: 10%;
+    font-weight: 100;
+  }
+  .logo{
+    font-size: 25px;
+    font-weight: 900;
+  }
+  
+  header > h1 {
+    margin-bottom: 0;
+  }
+  
+  header > time {
+    font: italic 0.7rem sans-serif;
+  }
+  

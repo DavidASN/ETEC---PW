@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+body{
+    background-color: #15333e;
+}
+
+.CEPbusca{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: aliceblue;
+}
+
+.ri-map-pin-line{
+    font-size: 3rem;
+    color: aliceblue;
+}
+label{
+    font-size: 1.3rem;
+    color: aliceblue;
+}
+
+input{
+    width: 100%;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: aliceblue;
+}
+.caixa{
+    padding: 1.6rem;
+    border-radius: 1rem;
+    background: #256a85;
+    background: linear-gradient(90deg, rgba(37, 106, 133, 1) 0%, rgba(87, 147, 199, 1) 50%, rgba(28, 118, 138, 1) 100%);
+    box-shadow: 10px 15px 8px #130338;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
